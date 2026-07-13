@@ -3,15 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ScreenBuddy - Pesto</title>
-  <meta name="description" content="Download ScreenBuddy, the local productivity companion powered by Pesto." />
+  <title>ScreenBuddy - Pesto, your desktop focus Jarvis</title>
+  <meta name="description" content="ScreenBuddy is a local-first desktop companion that tracks your focus, guards against distraction, and restores your work context. Free for Windows and Mac." />
+  <link rel="icon" href="assets/pesto.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/pesto.png" />
+  <meta name="theme-color" content="#d76743" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <main class="home">
     <nav class="topbar" aria-label="Main navigation">
       <a class="brand" href="/">
-        <img src="assets/pesto.png" alt="" />
+        <img src="assets/pesto.png" alt="" width="42" height="42" />
         <span>ScreenBuddy</span>
       </a>
       <a class="support-link" href="/support.html">Support</a>
@@ -23,10 +26,11 @@
         <h1>A tiny desktop buddy that remembers what you were working on.</h1>
         <p class="lede">ScreenBuddy tracks app and window metadata locally, answers productivity questions, and helps you sort time into the pursuits you actually care about.</p>
         <div class="actions">
-          <a id="downloadLink" class="download" href="https://github.com/orbitwebsites-cloud/screenbuddy/releases/latest" rel="noopener">Download for Windows</a>
-          <a class="secondary" href="https://github.com/orbitwebsites-cloud/screenbuddy" rel="noopener">View GitHub</a>
+          <a id="downloadLink" class="download" href="https://downloads.screenbudy.orbitboyzz.me/releases/ScreenBuddy-Setup-0.1.6.exe" rel="noopener">Download for Windows</a>
+          <a class="secondary" href="/support.html">Setup help</a>
         </div>
-        <p class="fineprint">Windows first. Mac build coming after the setup flow is polished.</p>
+        <p id="altDownload" class="fineprint"></p>
+        <p class="fineprint">Windows &amp; Mac beta. Free to track, Premium for AI answers.</p>
       </div>
       <div class="mascot-stage" aria-hidden="true">
         <div class="orbit orbit-one"></div>

@@ -1,0 +1,13 @@
+{
+  "name": "screenbuddy-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static landing and support site for ScreenBuddy (x402 bot paywall via Vercel Routing Middleware)",
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@vercel/functions": "^3.9.11",
+    "@x402/core": "^2.28.0",
+    "@x402/evm": "^2.28.0"
+  }
+}

@@ -1,4 +1,4 @@
 {
-  "installCommand": "",
+  "installCommand": "npm ci",
   "buildCommand": ""
 }
